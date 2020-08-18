@@ -277,4 +277,4 @@ client.elevation = message => {
 
 
 //////////////////////////////////////////////////////////////////////////////////////////
-client.login("NzM4MzQ4MjUwMzYwMTg0ODMy.XyKmZA.a88G9vqhum4t27vE0NGYVFDJgjQ");//BUNLARI YAPINCA SİTE DE BOT DA AKTİF OLACAK!
+client.login(ayarlar.token);//BUNLARI YAPINCA SİTE DE BOT DA AKTİF OLACAK!
