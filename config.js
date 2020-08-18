@@ -1,4 +1,4 @@
-let config2 = require('../config.json')
+let config2 = require('./config.json')
 const config = {
   ownerID: config2.kurucu, //kendi IDınızı yazınız
   admins: config2.admin,
