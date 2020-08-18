@@ -35,7 +35,7 @@ client.ayarlar = {
   versiyon: "0.1",
   prefix: "-",
   renk: "#fff",
-  token: "NzM4NzAyODkyNDA3NDU1ODA0.XyPwrQ.Q7MLrZFxgnfMNRb96BiphbeqYak",
+  token: client.config.token,
   version: "0.1"
 };
 const ayarlar = client.ayarlar;
@@ -276,6 +276,5 @@ client.elevation = message => {
   return permlvl;
 };
 
-let config = require('./config.json')
 //////////////////////////////////////////////////////////////////////////////////////////
-client.login(config.token);
+client.login(ayarlar.token);
