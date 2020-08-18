@@ -30,11 +30,12 @@ client.ayarlar = {
   oynuyor: "oynuyor",
   official_sahip: "",
   sahip: [""],
-  isim: "Anka Stat",
+  isim: "JAWS Stat",
   webpanel: "",
   versiyon: "0.1",
   prefix: "-",
   renk: "#fff",
+  token: "NzM4NzAyODkyNDA3NDU1ODA0.XyPwrQ.Q7MLrZFxgnfMNRb96BiphbeqYak",
   version: "0.1"
 };
 const ayarlar = client.ayarlar;
@@ -275,6 +276,6 @@ client.elevation = message => {
   return permlvl;
 };
 
-
+let config = require('./config.json')
 //////////////////////////////////////////////////////////////////////////////////////////
-client.login(ayarlar.token);//BUNLARI YAPINCA SİTE DE BOT DA AKTİF OLACAK!
+client.login(config.token);
