@@ -1,5 +1,10 @@
 {
-    "prefix" : "prefix",
-    "Token" : "token",
+    "prefix": "prefix",
+	"kurucu": "",
+	"admin": "",
+    "token": "token",
+	"callback": "",
+	"secret": "",
+	"site": "",
 	"sunucun": "https://discord.gg/h6PPBmY"
   }
