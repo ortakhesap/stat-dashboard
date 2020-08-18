@@ -1,13 +1,13 @@
-let config = require('../config.json')
+let config2 = require('../config.json')
 const config = {
-  ownerID: config.kurucu, //kendi IDınızı yazınız
-  admins: config.admin,
-  token: config.token, //botunuzun tokenini yazınız
+  ownerID: config2.kurucu, //kendi IDınızı yazınız
+  admins: config2.admin,
+  token: config2.token, //botunuzun tokenini yazınız
   dashboard: {
-    oauthSecret: config.secret, //botunuzun secretini yazınız
-    callbackURL: config.callback, //site URLnizi yazınız /callback kısmını silmeyiniz!
+    oauthSecret: config2.secret, //botunuzun secretini yazınız
+    callbackURL: config2.callback, //site URLnizi yazınız /callback kısmını silmeyiniz!
     sessionSecret: "tb", //kalsın dokunmayın...
-    domain: config.site //site URLnizi yazınız!
+    domain: config2.site //site URLnizi yazınız!
   }
 };
 
