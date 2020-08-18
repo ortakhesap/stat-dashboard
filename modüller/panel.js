@@ -5,6 +5,7 @@ const Discord = require("discord.js");
 
 var express = require("express");
 var app = express();
+let config = require('../config.json')
 
 const passport = require("passport");
 const session = require("express-session");
@@ -18,9 +19,9 @@ const db = require("quick.db");
 
 module.exports = client => {
   const bilgiler = {
-    oauthSecret: "uAMrT_xIM9P7CLZ5WGdwhJeCbsYMicxq",
-    callbackURL: `https://locrian-sweltering-salmon.glitch.me/callback`,
-    domain: `https://locrian-sweltering-salmon.glitch.me/`//site url'sini felan yazınız.
+    oauthSecret: config.secret,
+    callbackURL: config.callback,
+    domain: config.site //site url'sini felan yazınız.
   };
 
   const dataDir = path.resolve(`${process.cwd()}${path.sep}panel`);
